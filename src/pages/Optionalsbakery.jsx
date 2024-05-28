@@ -109,16 +109,12 @@ function Optionalsbakery() {
                                     <div className='flex justify-between'>
                                     <p className="text-[4vw] text-[#094446] font-bold">{option.amount}</p>
                                     <div className="checkbox-wrapper-13">
-<<<<<<< HEAD
                                     <input 
                                                 type="checkbox" 
                                                 id={`agree-${index}`} 
                                                 className="form-checkbox accent-[#094446] h-5 w-5" 
                                                 onChange={handleCheckboxCount} // Add onChange handler
                                             />
-=======
-                                        <input type="checkbox" id={`agree-${index}`} onChange={(e) => handleCheckboxChange(option.amount, e.target.checked)} className="form-checkbox accent-[#094446] h-5 w-5" />
->>>>>>> ed5b998a6e830c094745f3276fbd1c54de38080c
                                     </div>
                                     </div>
                                 </div>
@@ -133,16 +129,12 @@ function Optionalsbakery() {
                                     <div className='flex justify-between'>
                                     <p className="text-[4vw] text-[#094446] font-bold">{option.amount}</p>
                                     <div className="checkbox-wrapper-13">
-<<<<<<< HEAD
                                     <input 
                                                 type="checkbox" 
                                                 id={`agree-${index}`} 
                                                 className="form-checkbox accent-[#094446] h-5 w-5" 
                                                 onChange={handleCheckboxCount} // Add onChange handler
                                             />
-=======
-                                        <input type="checkbox" id={`agree-${index}`} onChange={(e) => handleCheckboxChange(option.amount, e.target.checked)} className="form-checkbox accent-[#094446] h-5 w-5" />
->>>>>>> ed5b998a6e830c094745f3276fbd1c54de38080c
                                     </div>
                                 </div>
                                 </div>
