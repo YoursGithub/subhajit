@@ -1,0 +1,26 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+.save-button {
+    position: absolute;
+    z-index: 9999;
+    font-weight: bold;
+    font-size: 6vw;
+    padding: 1vw 4vw;
+    background-color: white;
+    border-radius: 22px;
+    right: 39vw;
+    bottom: 10vw;
+}
+.cross {
+    position: absolute;
+    z-index: 9999;
+    top: 7vw;
+    width: 5vw;
+    right: 4vw
+}
+.centerhoito{
+    margin-left: 34vw;
+}

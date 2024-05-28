@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+    body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .slideshow-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .mySlides {
+            display: none;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .input {
+        max-width: 430px;
+        height: 50px;
+        background-color: #05060f0a;
+        border-radius: .5rem;
+        padding: 0 1rem;
+        border: 2px solid transparent;
+        font-size: 1rem;
+        transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+        }
+
+        .label {
+        display: block;
+        margin-bottom: .3rem;
+        font-size: .9rem;
+        font-weight: bold;
+        color: #05060f99;
+        transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
+        }
+
+        .input:hover, .input:focus, .input-group:hover .input {
+        outline: none;
+        border-color: #05060f;
+        }
+
+        .input-group:hover .label, .input:focus {
+        color: #05060fc2;
+        }
+        
+
+        /* Fading animation */
+        .fade {
+            animation-name: fade;
+            animation-timing-function: ease-in-out;
+            animation-duration: 2s;
+        }
+
+        @keyframes fade {
+            from {
+                opacity: 0.4;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @media (min-width: 1879px) {
+            .footer p{
+                margin-top: 160px;
+            }
+        }
+
+        .form-container {
+            z-index: 99999;
+        }
+        .containers{
+            max-width: 1400px;
+    margin-inline: auto;
+        }
+        .containers1{
+    max-width: 1200px;
+    margin-inline: auto;
+  }
